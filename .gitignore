@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+
+# Dataset
+data/
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts and results
+*.pth
+*.pkl
+*.npz
+*.log
+*.txt
+
+# Training history or checkpoints
+history/
+checkpoints/
